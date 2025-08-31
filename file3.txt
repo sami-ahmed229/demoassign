@@ -1,2 +1,0 @@
-hello i have created a new file3.txt in vs code and now i will push to my 
-demo assign repo i will doing with terminal
