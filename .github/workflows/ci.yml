@@ -1,6 +1,6 @@
 name: my first ci
 
-on:[push]
+on: [push]
 
 jobs:
   build:
