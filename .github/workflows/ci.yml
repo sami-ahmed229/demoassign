@@ -1,1 +1,14 @@
+name: my first ci
 
+on:[push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: checkout code
+       uses: actions/checkout@4
+
+      -name: Run a Hello Script
+       run: echo "HELLO GITHUB ACTIONS BY MOHAMMMED SAMI"
